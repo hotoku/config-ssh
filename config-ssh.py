@@ -143,6 +143,7 @@ def main():
 
     hostname = update_wsl(WSL_CONFIG, instance_name, alias_name)
     update_windows(WIN_CONFIG, alias_name, hostname)
+    LOGGER.info(f"Updated '{alias_name}' to point to '{hostname}'.")
 
 
 if __name__ == "__main__":
