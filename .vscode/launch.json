@@ -1,0 +1,19 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "run config-ssh",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/config-ssh.py",
+      "console": "integratedTerminal",
+      "args": [
+        "hotoku-python-dev-1755818265.asia-northeast1-b.grf-ds-works",
+        "grf-ds-works"
+      ]
+    }
+  ]
+}
